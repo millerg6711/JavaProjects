@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chatterbox</string>
+    <string name="enter_message_here_hint">Enter Message Here…</string>
+    <string name="chat_message_format">[ %s ] %s: %s</string>
+    <string name="chatterbox_logo">Chatterbox Logo</string>
+    <string name="chatterbox_heading">Chatterbox</string>
+    <string name="username_hint">username…</string>
+    <string name="button_enter_chatroom">Enter Chatroom</string>
+    <string name="error_message_empty_username">Please enter username</string>
+    <string name="message_retrieval_failure">Failed to retrieve messages!</string>
+    <string name="new_message_format">New Message from %s!</string>
+    <string name="primary_channel">Primary Channel</string>
+    <string name="primary_channel_desc">Notification Description</string>
+    <string name="invalid_message_error">Please enter a message.</string>
+</resources>

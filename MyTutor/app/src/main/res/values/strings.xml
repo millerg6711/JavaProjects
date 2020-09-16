@@ -1,0 +1,107 @@
+<resources>
+    <!--Login Activity-->
+    <string name="app_name">My Tutor</string>
+    <string name="button_text_login">Login</string>
+    <string name="label_text_email">Email Address</string>
+    <string name="label_text_password">Password</string>
+    <string name="hint_text_email">example@ranken.edu</string>
+    <string name="hint_text_password">P@ssw0rd</string>
+    <string name="autofill_hint_email">Enter email address</string>
+    <string name="edit_hint_email">example@ranken.edu</string>
+    <string name="edit_hint_password">P@ssw0rd</string>
+    <string name="invalid_email_or_password_error_msg">Incorrect Email and/or Password</string>
+
+    <!--Home Activity-->
+    <string name="title_activity_home">@string/app_name</string>
+    <string name="topic_java">Java</string>
+    <string name="topic_android">Android</string>
+    <string name="topic_webdev">WebDev</string>
+
+    <string-array name="article_topics">
+        <item>@string/topic_java</item>
+        <item>@string/topic_java</item>
+        <item>@string/topic_java</item>
+        <item>@string/topic_java</item>
+        <item>@string/topic_java</item>
+        <item>@string/topic_android</item>
+        <item>@string/topic_android</item>
+        <item>@string/topic_webdev</item>
+        <item>@string/topic_webdev</item>
+    </string-array>
+
+    <string-array name="article_titles">
+        <item>Modern Java - Learn Java 8 features by coding it</item>
+        <item>Introduction to Java 8 Parallel Stream</item>
+        <item>10 Deadly Mistakes to Avoid When Learning Java</item>
+        <item>Java Programming Masterclass for Software Developers</item>
+        <item>Understanding and Leveraging the Java Stack Trace</item>
+        <item>The Complete Android N Developer Course</item>
+        <item>The Complete Android &amp; Java Developer Course - Build 21 Apps</item>
+        <item>Quick Tips to Make Accessible Web Sites</item>
+        <item>CSS Techniques for Web Content Accessibility Guidelines 1.0</item>
+    </string-array>
+
+    <string-array name="article_authors">
+        <item>Dilip S</item>
+        <item>Arpit Mandliya</item>
+        <item>John Selawsky</item>
+        <item>Tim Buchalka</item>
+        <item>Eugen Paraschiv</item>
+        <item>Rob Percival</item>
+        <item>Paulo Dichone</item>
+        <item>Shawn Henr</item>
+        <item>Wendy Chisholm</item>
+    </string-array>
+
+    <string-array name="article_dates">
+        <item>8/01/2019</item>
+        <item>4/24/2019</item>
+        <item>4/17/2019</item>
+        <item>12/01/2018</item>
+        <item>4/30/2018</item>
+        <item>2/01/2019</item>
+        <item>11/01/2019</item>
+        <item>1/01/2001</item>
+        <item>11/06/2000</item>
+    </string-array>
+
+    <string-array name="article_links">
+        <item>https://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/</item>
+        <item>http://java2novice.com/java-8/streams/parallelism-introduction/</item>
+        <item>https://dzone.com/articles/10-deadly-mistakes-to-avoid-when-learning-java</item>
+        <item>https://www.udemy.com/course/java-the-complete-java-developer-course/</item>
+        <item>https://stackify.com/java-stack-trace/</item>
+        <item>https://www.udemy.com/course/complete-android-n-developer-course/</item>
+        <item>https://www.udemy.com/course/complete-android-developer-course/</item>
+        <item>https://www.w3.org/WAI/quicktips/</item>
+        <item>https://www.w3.org/TR/WCAG10-CSS-TECHS/</item>
+    </string-array>
+
+    <!--Add Article Activity-->
+    <string name="title_activity_add_article">Add Article</string>
+    <string name="label_text_article_title">Article Title</string>
+    <string name="label_text_article_author">Article Author</string>
+    <string name="label_text_published_date">Published Date</string>
+    <string name="label_text_topic">Topic</string>
+    <string name="label_text_link">Link</string>
+    <string name="calendar_image_description">Pick Date from Calendar Image</string>
+    <string name="edit_hint_article_title">Ex: Modern Java - Learn Java 8 features by doing it</string>
+    <string name="edit_hint_article_author">Ex: Dilip S</string>
+    <string name="edit_hint_date_published">Ex: 8/01/2019</string>
+    <string name="edit_hint_article_link">Ex: https://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/</string>
+    <string name="alert_dialog_error_title_text">Invalid Input</string>
+    <string name="alert_dialog_error_message">Please complete all fields</string>
+    <string name="edit_published_date_format_string">%1$d/%2$d/%3$d</string>
+    <string name="alert_dialog_invalid_date_message">Please Enter Date in Correct Format (EX: 12/15/2019)</string>
+    <string name="bad_url_msg">Sorry, this is a bad link.</string>
+
+    <string-array name="topics">
+        <item>@string/topic_java</item>
+        <item>@string/topic_android</item>
+        <item>@string/topic_webdev</item>
+    </string-array>
+
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="admin_email">admin@ranken.edu</string>
+    <string name="admin_password">P@ssw0rd</string>
+</resources>

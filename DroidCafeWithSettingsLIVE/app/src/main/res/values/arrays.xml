@@ -1,0 +1,41 @@
+<resources>
+    <string-array name="market_names">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="market_abbrv">
+        <item>US</item>
+        <item>CA</item>
+        <item>UK</item>
+        <item>IN</item>
+        <item>JP</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="delivery_method_names">
+        <item>@string/same_day_messenger_service</item>
+        <item>@string/next_day_ground_delivery</item>
+        <item>@string/pick_up</item>
+    </string-array>
+
+    <string-array name="delivery_method_values">
+        <item>same_day</item>
+        <item>next_day</item>
+        <item>pick_up</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

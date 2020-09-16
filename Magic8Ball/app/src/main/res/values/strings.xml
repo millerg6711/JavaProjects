@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Magic 8 Ball</string>
+    <string name="tap_ball_hint">tap the ball to roll again</string>
+    <string name="eight_ball_image">Eight Ball Image</string>
+    <string name="failed_connection_error_msg">Failed to connect!</string>
+    <string name="notification_channel_name">8 Ball Notification</string>
+    <string name="notification_channel_desc">Notification from Eight Ball</string>
+</resources>

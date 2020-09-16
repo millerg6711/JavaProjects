@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.EditNoteFragment">
+
+    <TextView
+        android:id="@+id/note_title_label"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:text="@string/note_title_label"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_note_title"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:hint="@string/note_title_hint"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_title_label" />
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:text="@string/date_label"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_note_title" />
+
+    <EditText
+        android:id="@+id/edit_note_date"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:hint="@string/note_date_hint"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:nextFocusForward="@id/edit_note_body"
+        android:selectAllOnFocus="true"
+        android:transitionName="articlePublished"
+        app:layout_constraintEnd_toStartOf="@+id/image_note_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_label" />
+
+    <ImageView
+        android:id="@+id/image_note_date"
+        android:layout_width="@dimen/image_date_width"
+        android:layout_height="@dimen/image_date_height"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:contentDescription="@string/image_pick_date_desc"
+        android:focusable="false"
+        android:textColorHint="@color/colorHint"
+        android:focusableInTouchMode="false"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_note_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edit_note_date"
+        app:srcCompat="@drawable/ic_date" />
+
+    <TextView
+        android:id="@+id/note_body_label"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:text="@string/note_body_label"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_note_date" />
+
+    <EditText
+        android:id="@+id/edit_note_body"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:gravity="start|top"
+        android:hint="@string/note_body_hint"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_body_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

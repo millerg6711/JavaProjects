@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2018 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Material de mí!</string>
+    <string name="title_placeholder">Título</string>
+    <string name="news_placeholder">Noticias</string>
+    <string name="sports_info_placeholder">Aquí hay algunas noticias</string>
+
+    <string-array name="sports_titles">
+        <item>Béisbol</item>
+        <item>Bádminton</item>
+        <item>Baloncesto</item>
+        <item>Bowling</item>
+        <item>Ciclismo</item>
+        <item>Golf</item>
+        <item>Ejecutando</item>
+        <item>Fútbol</item>
+        <item>Natación</item>
+        <item>Tenis de mesa</item>
+        <item>Tenis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>¡Aquí hay algunas noticias de Béisbol!</item>
+        <item>¡Aquí hay algunas noticias de Badminton!</item>
+        <item>¡Aquí hay noticias de baloncesto!</item>
+        <item>¡Aquí hay algunas noticias de Bowling!</item>
+        <item>¡Aquí hay algunas noticias de ciclismo!</item>
+        <item>¡Aquí hay noticias de golf!</item>
+        <item>¡Aquí hay algunas noticias de Running!</item>
+        <item>¡Aquí hay noticias de fútbol!</item>
+        <item>¡Aquí hay noticias de natación!</item>
+        <item>¡Aquí hay algunas noticias de tenis de mesa!</item>
+        <item>¡Aquí hay noticias de tenis!</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+    <string-array name="sports_details">
+        <item>El béisbol es un juego de bate y pelota que se juega entre dos equipos opuestos que se turnan para batear y fildear. El juego continúa cuando un jugador en el campo</item>
+        <item>El bádminton es un deporte de raqueta que se juega con raquetas para golpear un volante a través de una red. Aunque se puede jugar con equipos más grandes</item>
+        <item>El baloncesto es un deporte de equipo en el que dos equipos, más comúnmente de cinco jugadores cada uno, se oponen entre sí en una cancha rectangular</item>
+        <item>Bowling es un deporte objetivo y una actividad recreativa en la que un jugador rueda o lanza una bola de boliche hacia los bolos (en bolos) u otro objetivo (en bolos).</item>
+        <item>El ciclismo, también llamado ciclismo o ciclismo, es el uso de bicicletas para transporte, recreación, ejercicio o deporte.</item>
+        <item>El golf es un deporte de club y pelota en el que los jugadores usan varios palos para golpear bolas en una serie de hoyos en un campo con el menor número de golpes posible.</item>
+        <item>Correr es un método de locomoción terrestre que permite que los humanos y otros animales se muevan rápidamente a pie.</item>
+        <item>El fútbol es una familia de deportes de equipo que implica, en diversos grados, patear una pelota para marcar un gol.</item>
+        <item>Nadar es la autopropulsión de una persona a través del agua, generalmente para recreación, deporte, ejercicio o supervivencia.</item>
+        <item>El tenis de mesa, también conocido como ping-pong, es un deporte en el que dos o cuatro jugadores golpean una pelota liviana de un lado a otro de la mesa con pequeñas raquetas.</item>
+        <item>El tenis es un deporte de raqueta que se puede jugar individualmente contra un solo oponente (individuales) o entre dos equipos de dos jugadores cada uno (dobles).</item>
+    </string-array>
+</resources>

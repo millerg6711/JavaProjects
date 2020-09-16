@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_item_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_item_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_one" />
+
+            <Button
+                android:id="@+id/button_item_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_two" />
+
+            <Button
+                android:id="@+id/button_item_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_three" />
+
+            <Button
+                android:id="@+id/button_item_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_four" />
+
+            <Button
+                android:id="@+id/button_item_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_five" />
+
+            <Button
+                android:id="@+id/button_item_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_six" />
+
+            <Button
+                android:id="@+id/button_item_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_seven" />
+
+            <Button
+                android:id="@+id/button_item_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_eight" />
+
+            <Button
+                android:id="@+id/button_item_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addItemToCart"
+                android:text="@string/item_10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_item_nine" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

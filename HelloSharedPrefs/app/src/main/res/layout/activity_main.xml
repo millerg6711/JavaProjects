@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/default_background"
+        android:gravity="center"
+        android:text="@string/default_count"
+        android:textColor="@android:color/white"
+        android:textSize="112sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_upper"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_upper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="120dp" />
+
+    <Button
+        android:id="@+id/button_black_background"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:onClick="changeBackground"
+        android:text="@string/black"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_lower"
+        app:layout_constraintEnd_toStartOf="@+id/button_red_background"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_upper" />
+
+    <Button
+        android:id="@+id/button_red_background"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red_background"
+        android:onClick="changeBackground"
+        android:text="@string/red"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_lower"
+        app:layout_constraintEnd_toStartOf="@+id/button_blue_background"
+        app:layout_constraintStart_toEndOf="@+id/button_black_background"
+        app:layout_constraintTop_toTopOf="@+id/guideline_upper" />
+
+    <Button
+        android:id="@+id/button_blue_background"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_background"
+        android:onClick="changeBackground"
+        android:text="@string/blue"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_lower"
+        app:layout_constraintEnd_toStartOf="@+id/button_green_background"
+        app:layout_constraintStart_toEndOf="@+id/button_red_background"
+        app:layout_constraintTop_toTopOf="@+id/guideline_upper" />
+
+    <Button
+        android:id="@+id/button_green_background"
+        style="@style/AppTheme.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green_background"
+        android:onClick="changeBackground"
+        android:text="@string/green"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_lower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_blue_background"
+        app:layout_constraintTop_toTopOf="@+id/guideline_upper" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="56dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="countUp"
+        android:text="@string/count_button"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_lower" />
+
+    <Button
+        android:id="@+id/button_settings"
+        style="@style/AppTheme.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="launchSettings"
+        android:text="@string/settings_button"
+        app:layout_constraintEnd_toStartOf="@+id/button_reset"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button_count"
+        app:layout_constraintTop_toTopOf="@+id/guideline_lower" />
+
+    <Button
+        android:id="@+id/button_reset"
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="reset"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_lower" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

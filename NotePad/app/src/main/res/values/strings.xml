@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Note Pad</string>
+    <string name="action_delete">Delete</string>
+    <string name="note_title_label">Title</string>
+    <string name="note_body_label">Body</string>
+    <string name="note_title_hint">Enter your note title</string>
+    <string name="note_body_hint">Enter your note body</string>
+    <string name="add_note">Add Note</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="image_pick_date_desc">Pick Date</string>
+    <string name="note_date_hint">mm/dd/yyyy</string>
+    <string name="date_label">Date</string>
+    <string name="error_message_parse_date">Failed to parse date!</string>
+    <string name="error_message_incomplete_data">Please add title, date and body message</string>
+    <string name="title_activity_edit_note">EditNoteActivity</string>
+    <string name="alert_delete_all_messages">Are you sure that you want to delete all messages?</string>
+    <string name="alert_option_no">No</string>
+    <string name="alert_option_yes">Yes</string>
+    <string name="toast_note_deleted">Note has been deleted!</string>
+    <string name="toast_failed_to_add_note">Failed to add note!</string>
+    <string name="toast_failed_to_get_note">Failed to get note!</string>
+    <string name="toast_failed_to_update_note">Failed to update note!</string>
+    <string name="toast_failed_to_delete_note">Failed to delete note!</string>
+    <string name="toast_failed_to_delete_all_notes">Failed to delete all notes!</string>
+    <string name="toast_unknown_error">Something went wrong! Try again later.</string>
+</resources>

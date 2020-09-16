@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fortune Cookie</string>
+    <string name="action_settings">Settings</string>
+    <string name="fortune_cookie_image_desc">Fortune Cookie Image</string>
+    <string name="fortune_example">I hear and I forget. I see and I remember.  I do and I understand.</string>
+    <string name="last_updated_example">30 seconds ago</string>
+    <string name="notification_channel_name">Fortune Cookie Notification</string>
+    <string name="notification_channel_desc">Notification from Fortune Cookie</string>
+    <string name="last_updated_format">%d second(s) ago</string>
+    <string name="updated_just_now">Updated Just Now!</string>
+    <string name="toast_error">Error</string>
+    <string name="primary_channel_name">New Fortune</string>
+    <string name="primary_channel_desc">Notification of the new fortune cookie message</string>
+    <string name="toast_refreshed">Refreshed!</string>
+    <string name="new_fortune">New Fortune!</string>
+</resources>

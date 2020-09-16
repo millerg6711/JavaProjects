@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Room Word Sample LIVE</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_save">Save</string>
+    <string name="edit_word_hint">Word...</string>
+    <string name="action_new_word">New Word</string>
+    <string name="failed_retrieving_words">Failed to get all words!</string>
+    <string name="word_in_database_error">Word already in database!</string>
+    <string name="failed_insert_word_error">Failed to insert new word!</string>
+    <string name="enter_word_error">Please enter a word</string>
+</resources>

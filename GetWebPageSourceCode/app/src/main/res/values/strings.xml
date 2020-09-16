@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Get Web Page Source Code</string>
+    <string name="label_enter_url">Enter URL:</string>
+    <string name="edit_url_google_hint">www.google.com</string>
+    <string name="button_text_get_page_source">Get Page Source</string>
+    <string name="page_source_will_appear_here">Page source will appear here</string>
+    <string name="enter_url_error_msg">Please enter a url.</string>
+    <string name="could_not_retrieve_website_error_msg">Could not retrieve website!</string>
+
+    <string-array name="protocols">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+</resources>

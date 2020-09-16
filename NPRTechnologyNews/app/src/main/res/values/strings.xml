@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NPR Technology News</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="primary_channel_name">New Article</string>
+    <string name="primary_channel_desc">Notification of new article</string>
+    <string name="item_article_image_desc">Article Image</string>
+    <string name="summary_format">%s …</string>
+    <string name="invalid_link">Invalid Link</string>
+    <string name="new_npr_tech_news">New NPR Tech News</string>
+    <string name="article_retrieval_error">Sorry. Could not retrieve articles at this time!</string>
+</resources>

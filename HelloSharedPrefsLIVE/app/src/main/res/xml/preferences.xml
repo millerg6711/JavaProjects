@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="auto_save"
+        android:summaryOff="@string/pref_auto_save_off"
+        android:summaryOn="@string/pref_auto_save_on"
+        android:title="@string/pref_auto_save" />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="count"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_count"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"
+        android:key="color"
+        android:title="Color"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

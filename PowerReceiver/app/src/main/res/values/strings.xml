@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PowerReceiver</string>
+    <string name="button_text_send_custom_broadcast">Send Custom Broadcast</string>
+    <string name="custom_broadcast_received">Custom Broadcast Received</string>
+    <string name="power_connected">Power connected!</string>
+    <string name="power_disconnected">Power disconnected!</string>
+    <string name="unknown_intent_action">Unknown intent action</string>
+    <string name="headset_plug_connected">Headset Plug Connected!</string>
+    <string name="headset_plug_disconnected">Headset Plug Disconnected!</string>
+</resources>

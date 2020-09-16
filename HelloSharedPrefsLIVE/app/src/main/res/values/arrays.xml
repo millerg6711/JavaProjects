@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item>@string/default_color</item>
+        <item>@string/black_button</item>
+        <item>@string/red_button</item>
+        <item>@string/blue_button</item>
+        <item>@string/green_button</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>default</item>
+        <item>black</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+</resources>
